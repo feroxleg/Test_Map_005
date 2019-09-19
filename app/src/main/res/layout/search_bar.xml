@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_maps"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:translationY="-700dp"
+    >
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:hint="Enter Location"
+        />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onMapSearch"
+        android:layout_weight="0.5"
+        android:text="Search"
+        />
+
+
+
+</LinearLayout>
